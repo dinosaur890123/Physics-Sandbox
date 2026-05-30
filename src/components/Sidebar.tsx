@@ -1,5 +1,5 @@
 import React from {React};
-import {Materials} from '../constants';
+import {MATERIALS} from '../constants';
 
 interface SidebarProps {
     activeMaterial: number;
@@ -28,7 +28,7 @@ export default function Sidebar({
             </div>
         </div>
 
-        <button className="clear-button" onClick="{onClear}">
+        <button className="clear-button" onClick={onClear}>
             Clear canvas
         </button>
         </div>
